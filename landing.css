@@ -1,0 +1,142 @@
+body {
+    background: white;
+    margin: 0px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+#brand {
+    font-size: 1.5em;
+}
+
+#seperate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left-side {
+    text-align: left;
+    padding-left: 10%; 
+}
+
+#on-the-way {
+    font-size: 2em;
+    color: rgb(56, 53, 53);
+}
+
+#sign-up {
+    font-size: 1em;
+    color: rgb(56, 53, 53);
+}
+
+input {
+    border-style: none none solid none;
+    border-color: black;
+}
+
+#notify-button{
+    background-color: rgb(56, 53, 53);
+    width: 168px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#notify-word {
+    color: white;
+}
+
+.super-small {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+#shoe-pic {
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+}
+
+#chat-icon {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 460px;
+    width: 50px;
+    height: 50px;
+    animation: changeSize 4s infinite;
+}
+
+@keyframes changeSize {
+    0% {width:20px; height: 20px;}
+    50% {width:50px; height:50px;}
+    100% {width:20px; height: 20px;}
+}
+
+.dash {
+    background-color: black;
+    height: 2px;
+    width: 40px;
+    margin-top: 25px;
+}
+
+#in-between {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+#details-rightbyside {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#details-leftbyside {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#platform {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%
+}
+
+#desktop{
+    font-size: .5rem;
+}
+
+#mobile {
+    font-size: .5rem;
+}
+
+@media (max-width:600px){
+    #desktop {
+        display: none;
+    }
+}
+
+@media (min-width:600px) {
+    #mobile {
+        display: none;
+    }
+}
+
+.credits {
+    font-size: 0.5em;
+    margin-top: 3%;
+}
